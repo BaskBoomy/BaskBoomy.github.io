@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Jack's Diary"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
+name                     : "Jack"
 description              : "An amazing website."
 url                      : "https://baskboomy.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -291,7 +291,7 @@ defaults:
   # _pages
   - scope:
       path: ""
-      type: pagesW
+      type: pages
     values:
       layout: single
       author_profile: true
