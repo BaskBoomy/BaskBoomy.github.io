@@ -4,17 +4,17 @@ main:
     url: /about/
   - title: "Category"
     url: /categories/
-    children:
-      - title : "컴파일러"
+  
+main-sidebar
+    - title : "컴파일러"
       url: /compiler/
       children:
         - title: "8주차"
         url: /compiler/8week
-      - title : "알고리즘"
-      url: /algorithm
-      children:
-        - title: "합병 정렬"
-        url: /algorithm/mergesort
+        - title : "알고리즘"
+        url: /algorithm
+    - title: "합병 정렬"
+    url: /algorithm/mergesort
   
     
 #   - title: "Tags"
